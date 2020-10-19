@@ -1,0 +1,28 @@
+@import url(https://fonts.google.com/specimen/Fredoka+One);
+body {
+  background: url(https://media.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif);
+  color: rgb(250, 253, 247);
+  font-family: 'Fredoka One', cursive;
+
+  /** permet de centrer les éléments dans la page **/
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/** l'image fait toujours la même hauteur **/
+img{
+  margin: 40px;
+  border: 1px solid yellow;
+  padding: 10px;
+  height: 40vh;
+  width: auto;
+}
+/** les titres ne sont pas trop grands **/
+h1,h2{
+  max-width: 800px;
+  line-height: 1.5;
+}
